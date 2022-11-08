@@ -53,7 +53,7 @@ export function Summary() {
       <div className="highlight-bg">
         <header>
           <p>Balance</p>
-          <img src={totalImg} alt="Total" />
+          <img src={totalImg} alt="Balance" />
         </header>
         <strong>
           {new Intl.NumberFormat("pt-BR", {
