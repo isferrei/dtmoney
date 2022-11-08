@@ -27,7 +27,7 @@ export function Summary() {
     <Container>
       <div>
         <header>
-          <p>Entradas</p>
+          <p>Incomes</p>
           <img src={incomeImg} alt="Income" />
         </header>
         <strong>
@@ -39,7 +39,7 @@ export function Summary() {
       </div>
       <div>
         <header>
-          <p>Saidas</p>
+          <p>Outcomes</p>
           <img src={outcomeImg} alt="Outcome" />
         </header>
         <strong>
@@ -52,7 +52,7 @@ export function Summary() {
       </div>
       <div className="highlight-bg">
         <header>
-          <p>Total</p>
+          <p>Balance</p>
           <img src={totalImg} alt="Total" />
         </header>
         <strong>
