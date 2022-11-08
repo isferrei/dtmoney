@@ -27,7 +27,7 @@ export function Summary() {
     <Container>
       <div>
         <header>
-          <p>Incomes</p>
+          <p>Total Income</p>
           <img src={incomeImg} alt="Income" />
         </header>
         <strong>
@@ -39,7 +39,7 @@ export function Summary() {
       </div>
       <div>
         <header>
-          <p>Outcomes</p>
+          <p>Total Outcome</p>
           <img src={outcomeImg} alt="Outcome" />
         </header>
         <strong>
