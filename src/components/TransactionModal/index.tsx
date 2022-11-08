@@ -69,10 +69,7 @@ export function TransactionModal({
         />
         <input
           type="number"
-          value={new Intl.NumberFormat("pt-BR", {
-            style: "currency",
-            currency: "BRL",
-          }).format(amount)}
+          value={amount}
           onChange={(e) => setAmount(Number(e.target.value))}
           placeholder="Value"
         />

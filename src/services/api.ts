@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const api = axios.create({
-    baseURL: 'https://dtmoney-isferrei.vercel.app/api'
+    baseURL: `${window.location.href}api`
 })
