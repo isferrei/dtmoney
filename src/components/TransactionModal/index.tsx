@@ -59,7 +59,7 @@ export function TransactionModal({
       </button>
 
       <Container onSubmit={handleCreateNewTransaction}>
-        <h2>Register transaction</h2>
+        <h2>Create transaction</h2>
 
         <input
           type="text"
